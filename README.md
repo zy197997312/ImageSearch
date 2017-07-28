@@ -18,8 +18,8 @@ Euclidean distance (L2)<br>
 相似度重排Re-ranking：<br>
 Blending: mix results<br>
 Ensembling: weighted sum<br>
-
+---------------------------
 运行方法：<br>
 执行/util/prepare.py计算图库特征<br>
 执行python main.py启动Tornado web serverb<br>
-使用浏览器登录http://localhost:19999/cbir 进行搜索（主要搜索图片为车<br>
+使用浏览器登录http://localhost:19999/cbir 进行搜索（主要搜索图片为车）<br>
