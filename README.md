@@ -3,21 +3,21 @@
 基于一些基础特征进行的图像搜索<br>
 ---------------------------
 本代码支持的特征有：<br>
-perceptual hash<br>
-Otsu's method<br>
-gray/RGB/YUV/HSV histograms<br>
-HoG and LSH (built by Kmeans clustering)<br>
-SIFT and LSH (built by Kmeans clustering)<br>
-Dense SIFT<br>
+1 perceptual hash<br>
+2 Otsu's method<br>
+3 gray/RGB/YUV/HSV histograms<br>
+4 HoG and LSH (built by Kmeans clustering)<br>
+5 SIFT and LSH (built by Kmeans clustering)<br>
+6 Dense SIFT<br>
 ---------------------------
 相似度距离：<br>
-Hamming distance (L0)<br>
-Manhattan distance (L1)<br>
-Euclidean distance (L2)<br>
+1 Hamming distance (L0)<br>
+2 Manhattan distance (L1)<br>
+3 Euclidean distance (L2)<br>
 ---------------------------
 相似度重排Re-ranking：<br>
-Blending: mix results<br>
-Ensembling: weighted sum<br>
+1 Blending: mix results<br>
+2 Ensembling: weighted sum<br>
 ---------------------------
 运行方法：<br>
 执行/util/prepare.py计算图库特征<br>
