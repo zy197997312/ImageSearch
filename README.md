@@ -23,3 +23,4 @@
 执行/util/prepare.py计算图库特征<br>
 执行python main.py启动Tornado web serverb<br>
 使用浏览器登录http://localhost:19999/cbir 进行搜索（主要搜索图片为车）<br>
+搜索实例可见：http://blog.csdn.net/zhouyyyy_oei/article/details/76511763
